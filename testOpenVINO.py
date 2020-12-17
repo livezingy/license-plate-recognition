@@ -137,7 +137,6 @@ def plateRecognition(frame):
     showImg = imutils.resize(frame, height=600)
     cv2.imshow("showImg",showImg)  
 
-
 for imagePath in paths.list_images(TEST_PATH):
     print(imagePath)
     img = cv2.imread(imagePath)
