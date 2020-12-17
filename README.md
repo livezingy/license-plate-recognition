@@ -33,5 +33,6 @@ The test result of vehicle-attributes-recognition-barrier-0039 is not very accur
 
 # More Information
 [OpenVINO+Win10安装及环境配置攻略](https://livezingy.com/setup-openvino-in-win10/)
+
 [OpenCV调用OpenVINO模型vehicle-license-plate-detection-barrier检测车牌](https://livezingy.com/vehicle-license-plate-detection-barrier-in-opencv/)
 
