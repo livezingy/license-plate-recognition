@@ -7,9 +7,9 @@ The license-plate-recognition call the OpenVINO pre-trained models with python a
 The license-plate-recognition test in win10 + python3.6 + openvino_2021.1.110 + opencv-contrib-python 4.4.0.44.
 
 # How to run the license-plate-recognition
-## 1. OpenVINO installation and environment configuration. More information Please refer to [OpenVINO+Win10安装及环境配置攻略](https://livezingy.com/setup-openvino-in-win10/).
-## 2. Run the setupvars.bat in C:\Program Files (x86)\Intel\openvino_2021.1.110\bin
-## 3. Run the testOpenVINO.py
+1. OpenVINO installation and environment configuration. More information Please refer to [OpenVINO+Win10安装及环境配置攻略](https://livezingy.com/setup-openvino-in-win10/).
+2. Run the setupvars.bat in C:\Program Files (x86)\Intel\openvino_2021.1.110\bin
+3. Run the testOpenVINO.py
 ```
 C:\Users\username>cd C:\Program Files (x86)\Intel\openvino_2021.1.110\bin
  
