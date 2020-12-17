@@ -9,7 +9,7 @@ The license-plate-recognition test in win10 + python3.6 + openvino_2021.1.110 + 
 # How to run the license-plate-recognition
 1. OpenVINO installation and environment configuration. More information Please refer to [OpenVINO+Win10安装及环境配置攻略](https://livezingy.com/setup-openvino-in-win10/).
 2. Run the setupvars.bat in C:\Program Files (x86)\Intel\openvino_2021.1.110\bin
-3. Run the testOpenVINO.py
+3. Run the testOpenVINO.py. The license-plate-recognition will process the images in testImgs one-by-one.
 ```
 C:\Users\username>cd C:\Program Files (x86)\Intel\openvino_2021.1.110\bin
  
