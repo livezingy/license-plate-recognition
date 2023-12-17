@@ -7,7 +7,7 @@ The license-plate-recognition call the OpenVINO pre-trained models with python a
 The license-plate-recognition test in win10 + python3.6 + openvino_2021.1.110 + opencv-contrib-python 4.4.0.44.
 
 # How to run the license-plate-recognition
-1. OpenVINO installation and environment configuration. More information Please refer to [OpenVINO+Win10安装及环境配置攻略](https://livezingy.com/setup-openvino-in-win10/).
+1. instal OpenVINO.
 2. Run the setupvars.bat in C:\Program Files (x86)\Intel\openvino_2021.1.110\bin
 3. Run the testOpenVINO.py. The license-plate-recognition will process the images in testImgs one-by-one.
 ```
@@ -24,15 +24,10 @@ D:\>cd D:\Python\OpenVINOMODEL
 D:\Python\OpenVINOMODEL>python testOpenVINO.py
 [E:] [BSL] found 0 ioexpander device
 ```
-![image](https://livezingy.com/uploads/2020/12/plate3.png)
+![image](https://github.com/livezingy/license-plate-recognition/blob/master/license1.png)
 
-![image](https://livezingy.com/uploads/2020/12/plate4.png)
+![image](https://github.com/livezingy/license-plate-recognition/blob/master/license2.png)
 
 # About vehicle-attributes-recognition-barrier-0039
 The test result of vehicle-attributes-recognition-barrier-0039 is not very accurate, so the result is not displayed in the picture by default. If you want to observe the test results of the model, you could set the bShowColor = True in testOpenVINO.py.
-
-# More Information
-[OpenVINO+Win10安装及环境配置攻略](https://livezingy.com/setup-openvino-in-win10/)
-
-[OpenCV调用OpenVINO模型vehicle-license-plate-detection-barrier检测车牌](https://livezingy.com/vehicle-license-plate-detection-barrier-in-opencv/)
 
